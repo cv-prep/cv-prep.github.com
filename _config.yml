@@ -1,0 +1,38 @@
+# Grantmaker settings
+foundation_name: CVs and Interviews
+foundation_tagline: Helping you get your dream job
+
+# Social media settings
+profile_twitter: https://twitter.com/cv_prep
+profile_twitter_handle: "@cv_prep"
+profile_facebook:
+profile_instagram: https://www.instagram.com/cv_prep/
+profile_instagram_handle: "@cv_prep"
+profile_github:
+
+# Site settings
+title: # Defaults to foundation_name if left blank
+description: | # this means to start on the next line (which needs to be indented two spaces)"
+  We aim our limited resources at helping Graduates and young professionals aiming for junior roles. We've found over the years that
+  university career advisors, though a fantastic free resource, don't offer enough support to individuals looking to find their first job.
+
+description_2: |
+  Ensuring you're able to achieve your dream role as early as possible gives you the flexibility to decide to either pivot from that role/industry, or gives you
+  a huge head start in progressing through the ranks.
+
+# Google settings
+live: false # enter 'true' when you're ready for the site to be indexed by Google and other web crawlers
+
+# Jekyll settings
+#baseurl:# Leave this blank unless your site is located on a subpath, e.g. /blog
+url: https://cv-prep.co.uk
+collections:
+  featured-cards:
+    output: true
+sass:
+  sass_dir: assets/css/_sass
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM

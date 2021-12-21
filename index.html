@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<!-- One -->
+<section id="one">
+  <header class="major">
+    <h2>Welcome to {{ site.foundation_name }}</h2>
+  </header>
+  <p>{{ site.description }} <br/> <br /> {{ site.description_2 }} </p>
+  <ul class="actions">
+    <li><a href="{{ site.baseurl }}/services/" class="button">Our Services</a></li>
+  </ul>
+</section>
+
+<!-- Two -->
+<section id="featured">
+  <h2>Case Studies</h2>
+  <p>To protect client interest, we use fake names and do not identify the company/organisation.</p>
+  <div class="row">
+      {% for each in site.featured-cards %}
+        <article class="6u 12u$(xsmall) work-item">
+          <a href="{{ site.baseurl }}/featured-cards/{{ each.card_id }}.html" class="image fit thumb" data-poptrox="ajax,600x400"><img src="{{ site.baseurl }}/assets/images/featured-cards/{{ each.card_id }}.jpg" alt="" /></a>
+          <h3>{{ each.project_title }}</h3>
+          <p>{{ each.project_summary }}</p>
+        </article>
+      {% endfor %}
+  </div>
+  <ul class="actions">
+    <li><a href="{{ site.baseurl }}/services/" class="button">Our Services</a></li>
+  </ul>
+</section>
