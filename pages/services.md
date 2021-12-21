@@ -8,9 +8,9 @@ permalink: /:basename/
 
 ## Services
 1. CV Improvement
-    - Full Service (Preferred)
+    - Full Upgrade (Preferred)
         - a session to get to know the client so we're able to craft a truly bespoke and streamlined CV
-    - Quick Turn Around
+    - CV Level Up
         - no interaction with the client
         - we improve the CV based on information provided in the enquiry e-mail
         
@@ -20,11 +20,11 @@ permalink: /:basename/
 
 ## Pricing
 ### CV Improvement
-1. Full Service - £30
-2. Quick Turn Around - £15
+1. Full Upgrade - £30
+2. CV Level Up - £15
 
 ### Interview Prep
 1 session - £25
 
 ### Bundle
-Full Service (CV) and Interview Session - £45
+Full Upgrade (CV) and Interview Session - £45
