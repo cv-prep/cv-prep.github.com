@@ -1,6 +1,9 @@
 <!-- Footer -->
 <footer id="footer">
   <ul class="icons">
+    {% if site.email %}
+      <li><a href="mailto:{{site.email}}" class="icon icon fa-envelope-o"><span class="label">Email</span></a></li>
+    {% endif %}
     {% if site.profile_twitter %}
       <li><a href="{{site.profile_twitter}}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
     {% endif %}
