@@ -16,7 +16,7 @@
           <h2>{{ page.header_title }}</h2>
         </header>
         {% if page.header_intro %}
-          <p>{{ page.header_intro }}</p>
+          <p>{{ page.header_intro | markdownify }}</p>
         {% endif %}
       </section>
 

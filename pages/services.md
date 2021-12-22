@@ -1,7 +1,7 @@
 ---
 header_title: Services & Pricing
 header_intro: |
-    We specialise in CV improvement and Interview Preparation.
+    Reach via [enquiries@cv-prep.co.uk](mailto:enquiries@cv-prep.co.uk) to start the process
 layout: page
 permalink: /:basename/
 ---
