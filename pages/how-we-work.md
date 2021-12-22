@@ -9,6 +9,7 @@ permalink: /:basename/
 ---
 
 1. Reach out via e-mail to [enquiries@cv-prep.co.uk](mailto:enquiries@cv-prep.co.uk) including the following:
+    - What [service](/services) you require
     - Current CV
     - Current Role (or year of university)
     - Desired Role:
