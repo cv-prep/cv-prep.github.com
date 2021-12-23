@@ -7,7 +7,7 @@ state:
 zip: 
 phone: 
 fax: 
-email: enquiries@cv-prep.co.uk
+email: hi@cv-prep.co.uk
 layout: contact
 permalink: /:basename/
 ---
